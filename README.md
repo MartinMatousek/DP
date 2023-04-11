@@ -9,7 +9,7 @@ přenos dat do/z úložiště
 <b>INTERAKTIVNÍ ÚLOHA</b> - instalace requirements do condy, nastavení, testování skriptů, ...
 qsub -I -l select=1:ncpus=1:mem=128gb:scratch_ssd=128gb:ngpus=1:gpu_cap=cuda80 -q gpu -l walltime=1:00:00
 
-# CONDA nastavení
+# CONDA NASTAVENÍ
 ### potřebné moduly
 module load conda-modules
 module load gcc-8.3.0
@@ -28,7 +28,7 @@ conda config --prepend pkgs_dirs /storage/plzen1/home/martin_matousek/.conda/pkg
 conda config --prepend envs_dirs /storage/plzen1/home/martin_matousek/.conda/envs
 
 
-## instalace potřebných závislostí pro trénování
+## INSTALACE ZÁVISLOSTÍ
 ##### jsou potřeba specifické verze, v jiných to vždy na něčem padá
 conda install pytorch=1.10.0 torchvision torchaudio=0.10.0 cudatoolkit=11.1 -c pytorch -c conda-forge -y
 
