@@ -9,21 +9,21 @@ přenos dat do/z úložiště
 <b>INTERAKTIVNÍ ÚLOHA</b> - instalace requirements do condy, nastavení, testování skriptů, ...
 qsub -I -l select=1:ncpus=1:mem=128gb:scratch_ssd=128gb:ngpus=1:gpu_cap=cuda80 -q gpu -l walltime=1:00:00
 
-##CONDA nastavení
-###potřebné moduly
+# CONDA nastavení
+### potřebné moduly
 module load conda-modules
 module load gcc-8.3.0
 module add conda-modules-py37
 
-###vytvoření enviromentu (povedlo se mi pouze s prefixem)
+### vytvoření enviromentu (povedlo se mi pouze s prefixem)
 cd $SCRATCHDIR
 conda create --prefix=/storage/plzen1/home/martin_matousek/conda/dp_plzen python=3.8
 conda activate /storage/plzen1/home/martin_matousek/conda/dp_plzen
 
-#####přidání enviromentu do PATH
+##### přidání enviromentu do PATH
 export PATH=/storage/plzen1/home/martin_matousek/conda/dp_plzen/bin:$PATH
 
-#####tohle pomohlo na ukládání pkgs, envs - ukládání na volných kvótách
+##### tohle pomohlo na ukládání pkgs, envs - ukládání na volných kvótách
 conda config --prepend pkgs_dirs /storage/plzen1/home/martin_matousek/.conda/pkgs
 conda config --prepend envs_dirs /storage/plzen1/home/martin_matousek/.conda/envs
 
@@ -40,7 +40,7 @@ TMPDIR=/storage/plzen1/home/martin_matousek/cache_dir/ pip install setuptools==5
 
 TMPDIR=/storage/plzen1/home/martin_matousek/cache_dir/ pip install librosa --cache-dir=/storage/plzen1/home/martin_matousek/cache_dir/
 
-#####kontrola CUDA
+##### kontrola CUDA
 python -c 'import torch; print(torch.cuda.is_available())'
 
 v python3.8/site-packages/pytorch-lightning/loops/training_epoch_loop.py:350
@@ -54,14 +54,14 @@ jsem přidal metric=0, protože to nějak v té verzi PL zlobilo
 					metric=0,
                 )`
 
-##MISC
+## MISC
 Přepínat všechny skripty na Unixové LF konce řádků jinak s tím neumí pracovat (python soubory netřeba)
 
-####tar files
+#### tar files
 V GIT BASH
 tar -cvzf convtasnet.tar "convtasnet"
 
-##SPUŠTĚNÍ ÚLOHY
+## SPUŠTĚNÍ ÚLOHY
 nastavení možností stroje přímo v scriptu - https://wiki.metacentrum.cz/wiki/About_scheduling_system#qsub_options
 qsub data/run_conv.sh
 qsub data/run_conv_long.sh
