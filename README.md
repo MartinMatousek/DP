@@ -9,7 +9,7 @@ přenos dat do/z úložiště
 <b>INTERAKTIVNÍ ÚLOHA</b> - instalace requirements do condy, nastavení, testování skriptů, ...<br/>
 qsub -I -l select=1:ncpus=1:mem=128gb:scratch_ssd=128gb:ngpus=1:gpu_cap=cuda80 -q gpu -l walltime=1:00:00
 
-# CONDA NASTAVENÍ
+## CONDA NASTAVENÍ
 ### potřebné moduly
 module load conda-modules<br/>
 module load gcc-8.3.0<br/>
