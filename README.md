@@ -63,7 +63,7 @@ nastavení možností stroje přímo v skriptu - https://wiki.metacentrum.cz/wik
 
 <b>TROUBLESHOOTING</b> https://wiki.metacentrum.cz/wiki/FAQ/Grid_computing
 
-<b>Prodloužení úlohy</b>
+<b>Prodloužení úlohy</b><br/>
 Př. `qextend 14518449.meta-pbs.metacentrum.cz 24:00:00`
 ## VÝSLEDKY
 ### Počet řečníků
