@@ -3,7 +3,7 @@
 <b>PŘIHLÁŠENÍ PŘES PUTTY</b> - https://wiki.metacentrum.cz/wiki/Usage_of_PuTTY<br/>
 martin_matousek@<t/>alfrid.metacentrum.cz
 
-<b>NASTAVENÍ WinSCP</b> - https://wiki.metacentrum.cz/wiki/Usage_of_WinSCP
+<b>NASTAVENÍ WinSCP</b> - https://wiki.metacentrum.cz/wiki/Usage_of_WinSCP<br/>
 přenos dat do/z úložiště
 
 <b>INTERAKTIVNÍ ÚLOHA</b> - instalace requirements do condy, nastavení, testování skriptů, ...<br/>
