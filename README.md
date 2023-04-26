@@ -1,7 +1,7 @@
 <b>ÚVOD</b> - https://wiki.metacentrum.cz/wiki/Pruvodce_pro_zacatecniky
 
-<b>PŘIHLÁŠENÍ PŘES PUTTY</b> - https://wiki.metacentrum.cz/wiki/Usage_of_PuTTY
-martin_matousek@alfrid.metacentrum.cz
+<b>PŘIHLÁŠENÍ PŘES PUTTY</b> - https://wiki.metacentrum.cz/wiki/Usage_of_PuTTY<br/>
+martin_matousek@<t/>alfrid.metacentrum.cz
 
 <b>NASTAVENÍ WinSCP</b> - https://wiki.metacentrum.cz/wiki/Usage_of_WinSCP
 přenos dat do/z úložiště
