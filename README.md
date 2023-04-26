@@ -71,7 +71,8 @@ https://docs.metacentrum.cz/basics/concepts/#resources<br/>
 
 <b>TROUBLESHOOTING</b><br/>
 https://wiki.metacentrum.cz/wiki/FAQ/Grid_computing<br/>
-https://docs.metacentrum.cz/basics/concepts/
+https://docs.metacentrum.cz/basics/concepts/<br/>
+https://docs.metacentrum.cz/troubleshooting/faqs/
 
 <b>Prodloužení úlohy</b><br/>
 Př. `qextend 14518449.meta-pbs.metacentrum.cz 24:00:00`
