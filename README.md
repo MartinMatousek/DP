@@ -1,9 +1,15 @@
-<b>ÚVOD</b> - https://wiki.metacentrum.cz/wiki/Pruvodce_pro_zacatecniky
+<b>ÚVOD</b><br/>
+https://wiki.metacentrum.cz/wiki/Pruvodce_pro_zacatecniky<br/>
+https://docs.metacentrum.cz/basics/jobs/<br/>
 
-<b>PŘIHLÁŠENÍ PŘES PUTTY</b> - https://wiki.metacentrum.cz/wiki/Usage_of_PuTTY<br/>
+<b>PŘIHLÁŠENÍ PŘES PUTTY</b><br/>
+https://wiki.metacentrum.cz/wiki/Usage_of_PuTTY<br/>
+https://docs.metacentrum.cz/advanced/run-graphical/#connect-with-putty-in-windows<br/>
 martin_matousek@<t/>alfrid.metacentrum.cz
 
-<b>NASTAVENÍ WinSCP</b> - https://wiki.metacentrum.cz/wiki/Usage_of_WinSCP<br/>
+<b>NASTAVENÍ WinSCP</b><br/>
+https://wiki.metacentrum.cz/wiki/Usage_of_WinSCP<br/>
+https://docs.metacentrum.cz/data/data-within/#scp<br/>
 přenos dat do/z úložiště
 
 <b>INTERAKTIVNÍ ÚLOHA</b> - instalace requirements do condy, nastavení, testování skriptů, ...<br/>
@@ -56,12 +62,16 @@ V GIT BASH<br/>
 `tar -cvzf convtasnet.tar "convtasnet"`
 
 ## SPUŠTĚNÍ ÚLOHY
-nastavení možností stroje přímo v skriptu - https://wiki.metacentrum.cz/wiki/About_scheduling_system#qsub_options<br/>
+nastavení možností stroje přímo v skriptu<br/>
+https://wiki.metacentrum.cz/wiki/About_scheduling_system#qsub_options<br/>
+https://docs.metacentrum.cz/basics/concepts/#resources<br/>
 `qsub data/run_conv.sh`<br/>
 `qsub data/run_conv_long.sh`<br/>
 ...
 
-<b>TROUBLESHOOTING</b> https://wiki.metacentrum.cz/wiki/FAQ/Grid_computing
+<b>TROUBLESHOOTING</b><br/>
+https://wiki.metacentrum.cz/wiki/FAQ/Grid_computing<br/>
+https://docs.metacentrum.cz/basics/concepts/
 
 <b>Prodloužení úlohy</b><br/>
 Př. `qextend 14518449.meta-pbs.metacentrum.cz 24:00:00`
