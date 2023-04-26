@@ -69,5 +69,4 @@ qextend 14518449.meta-pbs.metacentrum.cz 24:00:00
 ### Počet řečníků
 ![image](https://user-images.githubusercontent.com/28596569/231187448-5cbc0534-6510-4682-827b-9ece730c7809.png)
 ### Různé jazyky
-![image](https://user-images.githubusercontent.com/28596569/234550947-e683fef9-eacd-49d2-8baf-96aac1a16448.png)
-
+![image](https://user-images.githubusercontent.com/28596569/234551926-0b495e1d-8e81-4ffb-a7d9-c6a92fc55477.png)
