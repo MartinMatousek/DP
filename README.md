@@ -37,7 +37,7 @@ přenos dat do/z úložiště
 `TMPDIR=/storage/plzen1/home/martin_matousek/cache_dir/ pip install librosa --cache-dir=/storage/plzen1/home/martin_matousek/cache_dir/`
 
 ##### Kontrola CUDA
-`python -c 'import torch; print(torch.cuda.is_available())'`<br/>
+`python -c 'import torch; print(torch.cuda.is_available())'`<br/><br/>
 v python3.8/site-packages/pytorch-lightning/loops/training_epoch_loop.py:350
 jsem přidal metric=0, protože to nějak v té verzi PL zlobilo<br/>
 `call._call_lightning_module_hook(
