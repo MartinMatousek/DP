@@ -1,3 +1,4 @@
+<b>ENGLISH VERSION IN [README.md](https://github.com/MartinMatousek/DP/edit/main/README.md)</b>
 # Zvukové ukázky výsledků separace řeči
 
 <details> 
