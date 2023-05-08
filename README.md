@@ -403,7 +403,7 @@ data transfer
 
 ##### CUDA check
 `python -c 'import torch; print(torch.cuda.is_available())'`<br/><br/>
-v python3.8/site-packages/pytorch-lightning/loops/training_epoch_loop.py:350
+in python3.8/site-packages/pytorch-lightning/loops/training_epoch_loop.py:350
 added metric=0, because it was broken otherwise<br/>
 `call._call_lightning_module_hook(
                     trainer,
