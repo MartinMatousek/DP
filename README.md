@@ -1,5 +1,4 @@
 # Speech separation using machine learning-based methods
-## Conv-TasNet
 <b>ČESKÁ VERZE V [README_CZ.md](https://github.com/MartinMatousek/DP/blob/main/README_CZ.md)</b>
 # Audio samples of speech separation results
 
